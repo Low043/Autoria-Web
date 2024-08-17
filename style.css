@@ -1,0 +1,52 @@
+body{
+    font-family : 'Open Sans';
+    margin: 0 15% 20px 15%;
+}
+
+h1{
+    font-size: 56px;
+}
+
+h2{
+    color: black;/*Fica dentro de <section>, precisa especificar a cor*/
+    font-size: 32px;
+    margin: 10px 0 10px 0;
+}
+
+hr{
+    border: 1px solid #B0AFAF;
+    margin: 20px -30px 60px -30px;
+}
+
+#subtítulo{
+    color: #555555;
+    font-size: 18px;
+}
+
+#créditos{
+    font-size: 16px;
+}
+
+#data{
+    font-size: 12px;
+}
+
+main{
+    text-align: justify;
+    color: #333333;
+}
+
+span, ul{
+    font-weight: bold;
+    color: #A6130A;
+}
+
+li{
+    margin: 15px;
+}
+
+section{
+    color: #333333;
+    border-left: 3px solid #A6130A;
+    padding-left: 10px;
+}
