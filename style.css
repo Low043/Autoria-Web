@@ -8,14 +8,13 @@ h1{
 }
 
 h2{
-    color: black;/*Fica dentro de <section>, precisa especificar a cor*/
+    color: black;
     font-size: 32px;
-    margin: 10px 0 10px 0;
 }
 
 hr{
     border: 1px solid #B0AFAF;
-    margin: 20px -30px 60px -30px;
+    margin: 20px -10px 60px -10px;
 }
 
 #subtítulo{
@@ -23,15 +22,12 @@ hr{
     font-size: 18px;
 }
 
-#créditos{
-    font-size: 16px;
-}
-
 #data{
     font-size: 12px;
 }
 
 main{
+    margin: 0 10% 0 10%;
     text-align: justify;
     color: #333333;
 }
@@ -45,10 +41,11 @@ li{
     margin: 15px;
 }
 
-section{
-    font-size: 24px;
+blockquote{
+    text-align: left;
     font-weight: bold;
-    color: #333333;
+    font-size: 28px;
     border-left: 3px solid #A6130A;
-    padding-left: 10px;
+    padding-left: 20px;
+    margin-left: 0;
 }
