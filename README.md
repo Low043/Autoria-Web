@@ -7,3 +7,6 @@ Este repositório serve para armazenar os projetos/experimentos voltados a disci
 
 ### 1º Bimestre
 - [Réplica do G1](https://github.com/Low043/Autoria-Web/tree/1B-G1)
+
+### 2º Bimestre
+- [Réplica da Wikipedia](https://github.com/Low043/Autoria-Web/tree/2B-Wikipedia)
