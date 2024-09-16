@@ -1,0 +1,53 @@
+@import url('style.css');
+
+article {
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding: 20px 50px 0 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+    text-indent: 20px;
+    font-style: italic;
+}
+
+h1::after {/*Remove linha horizontal do título*/
+    all: unset;
+}
+
+nav {
+    width: 320px;
+    border: 1px solid black;
+}
+
+nav::before {/*Barra de "Conteúdo"*/
+    content: 'Conteúdo';
+    background-color: #70C3FF;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 32px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: black;
+    text-decoration-thickness: 1.5px;
+}
+
+h2 {
+    margin: 20px 0 0 0;
+    text-indent: 20px;
+    font-weight: 500;
+}
+
+p {
+    text-indent: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
