@@ -58,7 +58,7 @@ ol, a {
 li > p{
     color: black;
     margin-top: 0;
-    text-indent: 16px;
+    text-indent: 1.5rem;
 }
 
 section > a {

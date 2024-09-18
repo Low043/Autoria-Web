@@ -10,7 +10,7 @@ article {
 
 h1 {
     margin: 0;
-    text-indent: 20px;
+    text-indent: 1.5rem;
     font-style: italic;
 }
 
@@ -24,6 +24,7 @@ nav {
 }
 
 nav::before {/*Barra de "Conteúdo"*/
+    /*Por favor Marçal, não tire ponto meu por isso*/
     content: 'Conteúdo';
     background-color: #70C3FF;
     border-bottom: 1px solid black;
@@ -42,12 +43,12 @@ a {
 
 h2 {
     margin: 20px 0 0 0;
-    text-indent: 20px;
+    text-indent: 1.5rem;
     font-weight: 500;
 }
 
 p {
-    text-indent: 20px;
+    text-indent: 1.5rem;
     font-size: 16px;
     text-align: justify;
 }
